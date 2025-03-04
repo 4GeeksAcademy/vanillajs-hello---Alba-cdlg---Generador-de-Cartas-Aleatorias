@@ -38,6 +38,16 @@ body{
 .card.clubs::before, .card.clubs::after { content: '\2663'; color: black; }
 .card.hearts::before, .card.hearts::after { content: '\2665'; color: red; }
 .card.diams::before, .card.diams::after { content: '\2666'; color: red; }
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+}
     
 
 
