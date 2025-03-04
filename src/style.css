@@ -31,6 +31,7 @@ body{
         bottom: 20px;
         right: 20px;
         font-size: 70px;
+        transform: rotate(180deg);
     }
 
 .card.spade::before, .card.spade::after { content: '\2660'; color: black; }
