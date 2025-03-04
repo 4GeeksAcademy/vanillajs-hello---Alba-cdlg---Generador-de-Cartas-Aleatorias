@@ -11,20 +11,32 @@ body{
     margin: auto;
     height: 400px;
     width: 250px;
+    font-size: 70px;
     padding: 20px;
+    padding-top: 140px;
     border: 1px solid black;
     border-radius: 5px;
     position: relative;
-    .top-suit{
+}
+
+.card::before {
         position: absolute;
         top: 20px;
         left: 20px;
         font-size: 70px;
     }
-    .bottom-suit{
+
+.card::after {
         position: absolute;
         bottom: 20px;
         right: 20px;
         font-size: 70px;
     }
-}
+
+.card.spade::before, .card.spade::after { content: '\2660'; color: black; }
+.card.clubs::before, .card.clubs::after { content: '\2663'; color: black; }
+.card.hearts::before, .card.hearts::after { content: '\2665'; color: red; }
+.card.diams::before, .card.diams::after { content: '\2666'; color: red; }
+    
+
+
